@@ -82,8 +82,7 @@ section.design, section.back-end {
 section.design img, section.back-end img {
   border-radius: 15px;
   display: inline-block;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin: 20px;
   position: relative;
   float: left;
 }
@@ -95,8 +94,7 @@ section.front-end {
 section.front-end img {
   border-radius: 15px;
   display: inline-block;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin: 20px;
   position: relative;
   float: right;
 }

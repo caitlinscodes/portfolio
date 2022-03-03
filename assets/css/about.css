@@ -5,9 +5,13 @@
   --txt: #efc7c2;
 }
 
+h1 {
+  font-family: optima;
+}
+
 body {
   background-color: var(--bg);
-  font-family: serif;
+  font-family: optima;
   font-size: 20px;
 }
 
@@ -33,6 +37,7 @@ footer {
 button {
   padding: 10px;
   margin: 10px;
+  font-family: optima;
   font-size: 16px;
   border-radius: 15px;
   background-color: var(--txt);
