@@ -20,6 +20,10 @@ main {
   padding: 20px;
 }
 
+main img {
+  border-radius: 15px;
+}
+
 footer {
   background-color: var(--hf);
   margin-top: 20px;

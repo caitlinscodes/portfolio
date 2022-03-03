@@ -57,11 +57,12 @@ main {
 }
 
 section {
+  position: relative;
   background-color: var(--box);
   border: 3px solid var(--hf);
   margin-bottom: 10px;
   padding: 20px;
-  width: 80%;
+  width: 95%;
 }
 
 section.design, section.back-end {
@@ -94,6 +95,10 @@ aside {
   height: 100%;
 }
 
+aside img {
+  border-radius: 15px;
+}
+
 aside ul li {
   display: block;
 }
@@ -107,4 +112,13 @@ footer {
   text-align: center;
 }
 
+footer img {
+  border-radius: 15px;
+}
+
 /* MediaQuery */
+@media screen and (max-width: 768px) {
+  aside {
+    display: none;
+  }
+}
