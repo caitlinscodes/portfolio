@@ -9,6 +9,7 @@ body {
   font-family: optima;
   font-size: 20px;
   background-color: var(--bg);
+  padding: 10px;
 }
 
 h1, h2 {
@@ -17,30 +18,27 @@ h1, h2 {
 
 /* Header */
 header {
-  width: 100%;
-  display: block;
   background-color: var(--hf);
-  text-align: center;
+  display: flex;
+  padding: 20px;
 }
 
 header img {
   border-radius: 15px;
-  display: inline-block;
-  margin-top: 20px;
-  margin-left: 20px;
   position: relative;
-  float: left;
+}
+
+.header-info {
+  width: 100%;
+  text-align: center;
 }
 
 header h1 {
-  display: inline-block;
+  text-align: center;
 }
 
-nav ul li {
-  display: inline-block;
-  padding-right: 25px;
-  padding-left: 25px;
-  margin-bottom: 20px;
+nav ul {
+  list-style-type: none;
 }
 
 /* Pulled from pseudo classes assignment */
